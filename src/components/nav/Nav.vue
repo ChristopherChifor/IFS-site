@@ -23,7 +23,7 @@
         <XIcon class="w-6 h-6" />
       </button>
     </div>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 bg-accent-darkest">
       <div
         class="
           flex
@@ -33,7 +33,7 @@
           md:justify-start md:space-x-5
         "
       >
-        <div class="flex justify-start items-center lg:w-0 flex-1">
+        <div class="flex justify-start items-center lg:w-0 flex-1 ">
           <router-link :to="{ name: 'home' }">
             <span class="sr-only">Company Name</span>
             <div class="flex items-center">
@@ -45,7 +45,7 @@
             </div>
           </router-link>
         </div>
-        <div class="-mr-2 -my-2 md:hidden">
+        <div class="-mr-2 -my-2 md:hidden ">
           <PopoverButton
             class="
               rounded-md
@@ -63,7 +63,7 @@
             <MenuIcon class="h-6 w-6 text-accent" aria-hidden="true" />
           </PopoverButton>
         </div>
-        <PopoverGroup as="nav" class="hidden md:flex space-x-6 xl:space-x-7">
+        <PopoverGroup as="nav" class="hidden md:flex space-x-6 xl:space-x-7 ">
           <NavItem
             v-for="item in navigation"
             :route="item"
@@ -109,7 +109,7 @@
           "
         >
           <div class="pt-5 pb-6 px-5">
-            <div class="flex items-center justify-between">
+            <div class="flex items-center justify-between ">
               <router-link :to="{ name: 'home' }">
                 <img
                   class="h-7 w-auto"
