@@ -1,5 +1,5 @@
 <template>
-  <Popover class="sticky left-0 top-0 w-full z-20 bg-white shadow">
+  <Popover class="sticky left-0 top-0 w-full z-20 bg-white shadow bg-accent-darkest">
     <div
       v-if="showAnnouncement"
       class="
@@ -23,7 +23,7 @@
         <XIcon class="w-6 h-6" />
       </button>
     </div>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 bg-accent-darkest">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
       <div
         class="
           flex
@@ -33,7 +33,7 @@
           md:justify-start md:space-x-5
         "
       >
-        <div class="flex justify-start items-center lg:w-0 flex-1 ">
+        <div class="flex justify-start items-center lg:w-0 flex-1">
           <router-link :to="{ name: 'home' }">
             <span class="sr-only">Company Name</span>
             <div class="flex items-center">
